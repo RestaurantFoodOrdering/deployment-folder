@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: foodcatalogueapp
-          image: msdevcoder123/footcatalogue-service:latest
+          image: msdevcoder123/footcatalogue-service:2
           imagePullPolicy: Always
           ports:
             - containerPort: 9092 #
