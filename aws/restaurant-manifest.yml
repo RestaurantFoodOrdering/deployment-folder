@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: msdevcoder123/restaurant-service:0.0.5
+          image: msdevcoder123/restaurant-service:8
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
