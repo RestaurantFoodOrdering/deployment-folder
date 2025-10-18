@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: userapp
-          image: msdevcoder123/user-service:latest
+          image: msdevcoder123/user-service:4
           imagePullPolicy: Always
           ports:
             - containerPort: 9093
