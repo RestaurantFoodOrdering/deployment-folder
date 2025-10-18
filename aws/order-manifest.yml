@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orderapp
-          image: msdevcoder123/order-service:latest
+          image: msdevcoder123/order-service:9
           imagePullPolicy: Always
           ports:
             - containerPort: 9094
